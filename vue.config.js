@@ -12,14 +12,14 @@ const assetsCDN = {
   externals: {
     vue: 'Vue',
     'vue-router': 'VueRouter',
-    'bootstrap-vue': 'bootstrapVue'
+    // 'bootstrap-vue': 'bootstrapVue'
   },
   css: [
   ],
   js: [
     'https://cdn.jsdelivr.net/npm/vue@2.6.12/dist/vue.min.js',
     'https://cdn.jsdelivr.net/npm/vue-router@3.4.9/dist/vue-router.min.js',
-    'https://cdn.jsdelivr.net/npm/bootstrap-vue@2.20.1/dist/bootstrap-vue.min.js',
+    // 'https://cdn.jsdelivr.net/npm/bootstrap-vue@2.20.1/dist/bootstrap-vue.min.js',
   ]
 }
 
