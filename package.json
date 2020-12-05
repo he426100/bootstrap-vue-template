@@ -4,8 +4,9 @@
   "private": true,
   "scripts": {
     "serve": "vue-cli-service serve",
-    "build": "vue-cli-service build",
-    "lint": "vue-cli-service lint"
+    "build": "vue-cli-service build && vue-cli-service sitemap && gzip -9 -k dist/sitemap.xml",
+    "lint": "vue-cli-service lint",
+    "sitemap": "vue-cli-service sitemap"
   },
   "dependencies": {
     "bootstrap-vue": "^2.17.3",
@@ -31,6 +32,7 @@
     "sass-loader": "^10.0.2",
     "vue-cli-plugin-bootstrap-vue": "~0.7.0",
     "vue-cli-plugin-prerender-spa": "~1.1.6",
+    "vue-cli-plugin-sitemap": "~2.3.0",
     "vue-template-compiler": "^2.6.11"
   }
 }

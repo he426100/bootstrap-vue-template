@@ -808,7 +808,7 @@
     "@babel/types" "^7.4.4"
     esutils "^2.0.2"
 
-"@babel/runtime@^7.11.0", "@babel/runtime@^7.8.4":
+"@babel/runtime@^7.0.0", "@babel/runtime@^7.11.0", "@babel/runtime@^7.8.4":
   version "7.12.5"
   resolved "https://registry.npm.taobao.org/@babel/runtime/download/@babel/runtime-7.12.5.tgz?cache=0&sync_timestamp=1604441104026&other_urls=https%3A%2F%2Fregistry.npm.taobao.org%2F%40babel%2Fruntime%2Fdownload%2F%40babel%2Fruntime-7.12.5.tgz#410e7e487441e1b360c29be715d870d9b985882e"
   integrity sha1-QQ5+SHRB4bNgwpvnFdhw2bmFiC4=
@@ -1917,6 +1917,19 @@ bcrypt-pbkdf@^1.0.0:
   dependencies:
     tweetnacl "^0.14.3"
 
+better-ajv-errors@^0.6.7:
+  version "0.6.7"
+  resolved "https://registry.npm.taobao.org/better-ajv-errors/download/better-ajv-errors-0.6.7.tgz#b5344af1ce10f434fe02fc4390a5a9c811e470d1"
+  integrity sha1-tTRK8c4Q9DT+AvxDkKWpyBHkcNE=
+  dependencies:
+    "@babel/code-frame" "^7.0.0"
+    "@babel/runtime" "^7.0.0"
+    chalk "^2.4.1"
+    core-js "^3.2.1"
+    json-to-ast "^2.0.3"
+    jsonpointer "^4.0.1"
+    leven "^3.1.0"
+
 bfj@^6.1.1:
   version "6.1.2"
   resolved "https://registry.npm.taobao.org/bfj/download/bfj-6.1.2.tgz#325c861a822bcb358a41c78a33b8e6e2086dde7f"
@@ -2551,6 +2564,11 @@ coa@^2.0.2:
     chalk "^2.4.1"
     q "^1.1.2"
 
+code-error-fragment@0.0.230:
+  version "0.0.230"
+  resolved "https://registry.npm.taobao.org/code-error-fragment/download/code-error-fragment-0.0.230.tgz#d736d75c832445342eca1d1fedbf17d9618b14d7"
+  integrity sha1-1zbXXIMkRTQuyh0f7b8X2WGLFNc=
+
 collection-visit@^1.0.0:
   version "1.0.0"
   resolved "https://registry.npm.taobao.org/collection-visit/download/collection-visit-1.0.0.tgz#4bc0373c164bc3291b4d368c829cf1a80a59dca0"
@@ -2781,7 +2799,7 @@ core-js-compat@^3.6.5, core-js-compat@^3.7.0:
     browserslist "^4.14.7"
     semver "7.0.0"
 
-core-js@^3.6.5:
+core-js@^3.2.1, core-js@^3.6.5:
   version "3.8.0"
   resolved "https://registry.npm.taobao.org/core-js/download/core-js-3.8.0.tgz?cache=0&sync_timestamp=1606326891071&other_urls=https%3A%2F%2Fregistry.npm.taobao.org%2Fcore-js%2Fdownload%2Fcore-js-3.8.0.tgz#0fc2d4941cadf80538b030648bb64d230b4da0ce"
   integrity sha1-D8LUlByt+AU4sDBki7ZNIwtNoM4=
@@ -4264,6 +4282,11 @@ graceful-fs@^4.1.11, graceful-fs@^4.1.15, graceful-fs@^4.1.2, graceful-fs@^4.1.6
   resolved "https://registry.npm.taobao.org/graceful-fs/download/graceful-fs-4.2.4.tgz#2256bde14d3632958c465ebc96dc467ca07a29fb"
   integrity sha1-Ila94U02MpWMRl68ltxGfKB6Kfs=
 
+grapheme-splitter@^1.0.4:
+  version "1.0.4"
+  resolved "https://registry.npm.taobao.org/grapheme-splitter/download/grapheme-splitter-1.0.4.tgz#9cf3a665c6247479896834af35cf1dbb4400767e"
+  integrity sha1-nPOmZcYkdHmJaDSvNc8du0QAdn4=
+
 gzip-size@^5.0.0:
   version "5.1.1"
   resolved "https://registry.npm.taobao.org/gzip-size/download/gzip-size-5.1.1.tgz?cache=0&sync_timestamp=1605523244597&other_urls=https%3A%2F%2Fregistry.npm.taobao.org%2Fgzip-size%2Fdownload%2Fgzip-size-5.1.1.tgz#cb9bee692f87c0612b232840a873904e4c135274"
@@ -5142,6 +5165,14 @@ json-stringify-safe@~5.0.1:
   resolved "https://registry.npm.taobao.org/json-stringify-safe/download/json-stringify-safe-5.0.1.tgz?cache=0&sync_timestamp=1589682771374&other_urls=https%3A%2F%2Fregistry.npm.taobao.org%2Fjson-stringify-safe%2Fdownload%2Fjson-stringify-safe-5.0.1.tgz#1296a2d58fd45f19a0f6ce01d65701e2c735b6eb"
   integrity sha1-Epai1Y/UXxmg9s4B1lcB4sc1tus=
 
+json-to-ast@^2.0.3:
+  version "2.1.0"
+  resolved "https://registry.npm.taobao.org/json-to-ast/download/json-to-ast-2.1.0.tgz#041a9fcd03c0845036acb670d29f425cea4faaf9"
+  integrity sha1-BBqfzQPAhFA2rLZw0p9CXOpPqvk=
+  dependencies:
+    code-error-fragment "0.0.230"
+    grapheme-splitter "^1.0.4"
+
 json3@^3.3.2:
   version "3.3.3"
   resolved "https://registry.npm.taobao.org/json3/download/json3-3.3.3.tgz#7fc10e375fc5ae42c4705a5cc0aa6f62be305b81"
@@ -5172,6 +5203,11 @@ jsonfile@^4.0.0:
   integrity sha1-h3Gq4HmbZAdrdmQPygWPnBDjPss=
   optionalDependencies:
     graceful-fs "^4.1.6"
+
+jsonpointer@^4.0.1:
+  version "4.1.0"
+  resolved "https://registry.npm.taobao.org/jsonpointer/download/jsonpointer-4.1.0.tgz#501fb89986a2389765ba09e6053299ceb4f2c2cc"
+  integrity sha1-UB+4mYaiOJdlugnmBTKZzrTywsw=
 
 jsprim@^1.2.2:
   version "1.4.1"
@@ -5231,6 +5267,11 @@ launch-editor@^2.2.1:
   dependencies:
     chalk "^2.3.0"
     shell-quote "^1.6.1"
+
+leven@^3.1.0:
+  version "3.1.0"
+  resolved "https://registry.npm.taobao.org/leven/download/leven-3.1.0.tgz#77891de834064cccba82ae7842bb6b14a13ed7f2"
+  integrity sha1-d4kd6DQGTMy6gq54QrtrFKE+1/I=
 
 levn@^0.3.0, levn@~0.3.0:
   version "0.3.0"
@@ -8403,6 +8444,16 @@ vue-cli-plugin-prerender-spa@~1.1.6:
   integrity sha1-/T7YkMlJwpweDHTugcfgRFOSQuM=
   dependencies:
     prerender-spa-plugin "^3.2.1"
+
+vue-cli-plugin-sitemap@~2.3.0:
+  version "2.3.0"
+  resolved "https://registry.npm.taobao.org/vue-cli-plugin-sitemap/download/vue-cli-plugin-sitemap-2.3.0.tgz#92539c1f1992e6ee61a42cb1f4be90fd8eef137e"
+  integrity sha1-klOcHxmS5u5hpCyx9L6Q/Y7vE34=
+  dependencies:
+    ajv "^6.12.5"
+    ajv-keywords "^3.5.2"
+    better-ajv-errors "^0.6.7"
+    chalk "^4.1.0"
 
 vue-eslint-parser@^7.0.0:
   version "7.2.0"

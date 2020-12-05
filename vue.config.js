@@ -87,7 +87,17 @@ const vueConfig = {
       useRenderEvent: true,
       headless: true,
       onlyProduction: true
-    }
+    },
+    sitemap: {
+      productionOnly: true,
+      outputDir: 'dist',
+      baseURL: 'https://example.com',
+			urls: [
+        '/',
+        '/home',
+        '/about'
+			]
+		}
   }
 }
 
