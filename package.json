@@ -26,9 +26,11 @@
     "eslint-plugin-vue": "^6.2.2",
     "popper.js": "^1.16.1",
     "portal-vue": "^2.1.7",
+    "prerender-spa-plugin": "^3.2.1",
     "sass": "^1.26.11",
     "sass-loader": "^10.0.2",
     "vue-cli-plugin-bootstrap-vue": "~0.7.0",
+    "vue-cli-plugin-prerender-spa": "~1.1.6",
     "vue-template-compiler": "^2.6.11"
   }
 }

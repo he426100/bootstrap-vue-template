@@ -24,7 +24,8 @@ const assetsCDN = {
 }
 
 const vueConfig = {
-  productionSourceMap: !IS_PROD, // 生产环境的 source map
+  // 生产环境的 source map
+  productionSourceMap: !IS_PROD,
 
   configureWebpack: {
     plugins: [],
@@ -73,7 +74,21 @@ const vueConfig = {
   },
 
   // babel-loader no-ignore node_modules/*
-  transpileDependencies: []
+  transpileDependencies: [],
+
+  pluginOptions: {
+    prerenderSpa: {
+      registry: undefined,
+      renderRoutes: [
+        '/',
+        '/home',
+        '/about'
+      ],
+      useRenderEvent: true,
+      headless: true,
+      onlyProduction: true
+    }
+  }
 }
 
 if (IS_PROD) {
